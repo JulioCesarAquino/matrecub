@@ -1,0 +1,151 @@
+{
+    "Botble\\Slug\\Repositories\\Eloquent\\SlugRepository": [
+        "ae2ef654b831c8f1f69802e1637cdecb445eff83f6aedd6d79879923b39e1bb6"
+    ],
+    "Botble\\Page\\Repositories\\Eloquent\\PageRepository": [
+        "1593cd96e580ba455a804e1d1a105490ed44931ac1b53adf72eeffd7470ceb05",
+        "1593cd96e580ba455a804e1d1a1054901a029abf8d954b77cd60ee8da0ebf20f",
+        "1593cd96e580ba455a804e1d1a105490aecd8fc74da0b408c818e78ed383c913"
+    ],
+    "Botble\\SimpleSlider\\Repositories\\Eloquent\\SimpleSliderRepository": [
+        "b12f060857dadd4dc0c15602377dea1bbe2ca67887ff466d3a229defaf157cfb"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\ProductCollectionRepository": [
+        "0fbea5411bc7b030f5296c63aac17250ad6a2eeb0add3341d3058dfeec22b5fc",
+        "0fbea5411bc7b030f5296c63aac17250c7547ebb8cbac7df8fdb8e55435f8449",
+        "0fbea5411bc7b030f5296c63aac17250d1c53757b17f72a3d3cee9e734ef14ba"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\CurrencyRepository": [
+        "7392db37366cec26a6676a47f20e06ab6516a11f5a4b090f585f3f26c97c145a",
+        "7392db37366cec26a6676a47f20e06ab239c5f3d48f46f8d64f75c39b01d3ea3",
+        "7392db37366cec26a6676a47f20e06abe81b94e9a47d8be3dcfc256d553e945f",
+        "7392db37366cec26a6676a47f20e06ab7be771fd7f1545005e41634e8cef8050",
+        "7392db37366cec26a6676a47f20e06ab03e84f9bfeb08d13e5a10c9da2c2bd5c",
+        "7392db37366cec26a6676a47f20e06abbc681aa07f0349363c28efedeeb9e232",
+        "7392db37366cec26a6676a47f20e06abe28593d783f8983da77a06e791f92bd2",
+        "7392db37366cec26a6676a47f20e06abb8cf50a57517ee99181972bdbe8ac1ec",
+        "7392db37366cec26a6676a47f20e06abc45d83f6eeb0969ca92a6f755640ddcc",
+        "7392db37366cec26a6676a47f20e06ab412f0dbafbf4b3de5711f13a793e95ea",
+        "7392db37366cec26a6676a47f20e06ab68021d0f70ffed5297c1eb880b9c2835",
+        "7392db37366cec26a6676a47f20e06ab51a65fbfc27c1645851e2b7a867baa4e",
+        "7392db37366cec26a6676a47f20e06ab8ea9c2246fc1e02ce7807da19f43d658",
+        "7392db37366cec26a6676a47f20e06abb1d773590acbef777a4315d9cbcd2b97",
+        "7392db37366cec26a6676a47f20e06abfe0eba64135f427741a7fb8d782873c0",
+        "7392db37366cec26a6676a47f20e06abfd110b290b670c93139a86c90e56598b",
+        "7392db37366cec26a6676a47f20e06ab2da7857ed1f0f3c15590253870d6a083",
+        "7392db37366cec26a6676a47f20e06ab93b5d1a2811a9660f900bec997b63071",
+        "7392db37366cec26a6676a47f20e06ab6fe33dfbbc85baf21f3b927a6151462e",
+        "7392db37366cec26a6676a47f20e06aba1398f85b81c5a3fc8f196796bf2b521",
+        "7392db37366cec26a6676a47f20e06ab1113587b252a3dd930b53f2099855c97",
+        "7392db37366cec26a6676a47f20e06ab7156d51ed24f6a6bcdfa033478a9896c"
+    ],
+    "Botble\\Menu\\Repositories\\Eloquent\\MenuRepository": [
+        "da09e42dd49829df8cccfddcfdc9098379454efc6a9b16fe4b547a8d73dccab7",
+        "da09e42dd49829df8cccfddcfdc90983d2cd8d1c5c2c03f99375c734569c0b3d"
+    ],
+    "Botble\\Widget\\Repositories\\Eloquent\\WidgetRepository": [
+        "8114b8d04fcb1acb28e1466424d10413fa163f6ae1b20cff37efba9582a29fa2",
+        "8114b8d04fcb1acb28e1466424d104132f96319a06ccf3c0895a842abf573a09",
+        "8114b8d04fcb1acb28e1466424d10413f1fea1b8fd765367fb305a63d3c7b96e"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\ProductRepository": [
+        "7f0b2e6f0a5da2a446aea05c40b51e0b22c48b668add93b9efcc5e4c44f57057",
+        "7f0b2e6f0a5da2a446aea05c40b51e0b42c7c5f9090722e863273d5da6e3636a",
+        "7f0b2e6f0a5da2a446aea05c40b51e0b651e3d6c1fe7bdd16dfe61989761d63d",
+        "7f0b2e6f0a5da2a446aea05c40b51e0b11594d0200a791d2b65d71bd6aed6598",
+        "7f0b2e6f0a5da2a446aea05c40b51e0b95fbd3220372a648b5b9c6fd6b89636a",
+        "7f0b2e6f0a5da2a446aea05c40b51e0b98031d6734a740d8114837c4296edd7b"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\ReviewRepository": [
+        "4b02c778fd07981bf8cefac0c8547bde5a3b3bfce20e714c3f0830ca7be3f6d1",
+        "4b02c778fd07981bf8cefac0c8547bde17846b068f2251162f2d492f117cde9e",
+        "4b02c778fd07981bf8cefac0c8547bde6f73ea0c3a2e3dedadd077c974bbd06c",
+        "4b02c778fd07981bf8cefac0c8547bdea21d6f81e2c94ca657cb93ce849be6cf",
+        "4b02c778fd07981bf8cefac0c8547bdedee443befc367f06bd3a3b7557cfb2ae",
+        "4b02c778fd07981bf8cefac0c8547bde3a714f1c103f490b2c9440821e321e83",
+        "4b02c778fd07981bf8cefac0c8547bdede231e8b0d961a2d232486ef3589fbfb",
+        "4b02c778fd07981bf8cefac0c8547bde3a1b5e662e09ef0a4d3b1c052ff45096",
+        "4b02c778fd07981bf8cefac0c8547bde19c1ef80c55a71ec05d6c38bbed9e36f",
+        "4b02c778fd07981bf8cefac0c8547bde75431c60e07c687df38d55bf991a3833",
+        "4b02c778fd07981bf8cefac0c8547bde1a35f01e58a1af91f42e669959e1eb8d",
+        "4b02c778fd07981bf8cefac0c8547bde76dac814bfa473240ecb9c4adff31ab6",
+        "4b02c778fd07981bf8cefac0c8547bde055bad62006cb016ed22fad68628ce31"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\BrandRepository": [
+        "86e5a8542026409e9efe3742e1e1593ccf5cad32b2299e48fdbd3a6ea3520093",
+        "86e5a8542026409e9efe3742e1e1593caa562acda1cc0841ae573bc6e8866117",
+        "86e5a8542026409e9efe3742e1e1593cd7f0d82123d32d5e8a5cc7cb7a718288"
+    ],
+    "Botble\\Blog\\Repositories\\Eloquent\\PostRepository": [
+        "cdc4eb4072e78badbc76dd37306d7a5b3fa36e3509d8474da11539fdcf961d63"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\OrderRepository": [
+        "b20984722adcf3e95e7c5b5fb3fde3a8e117e5f33b6d5ffe9ecee785ba65bef0",
+        "b20984722adcf3e95e7c5b5fb3fde3a8c47a0f192eba5d242cd004f5f2d93ae8",
+        "b20984722adcf3e95e7c5b5fb3fde3a8d672fbe3e32c0584ce17c9779b5aef4e",
+        "b20984722adcf3e95e7c5b5fb3fde3a837f1f2ba9a830fd453b7f0c6886f8f0a",
+        "b20984722adcf3e95e7c5b5fb3fde3a8f097b9e3b2f3f452e398ff33a20e99e8",
+        "b20984722adcf3e95e7c5b5fb3fde3a8aa3ad18049c9aac15cc9e39c95d7ac51",
+        "b20984722adcf3e95e7c5b5fb3fde3a812f79047dbb19affa66d30a83548c8b7",
+        "b20984722adcf3e95e7c5b5fb3fde3a825c1b3f5dadcc83c06503206e055096f",
+        "b20984722adcf3e95e7c5b5fb3fde3a8bee64f8e39f3388388c7fe2b191b090d",
+        "b20984722adcf3e95e7c5b5fb3fde3a8bb7c2030cba8f20de809b1617bb57f84",
+        "b20984722adcf3e95e7c5b5fb3fde3a8a9325dec715e4ab0ef65bf8979abb1c5",
+        "b20984722adcf3e95e7c5b5fb3fde3a895508497a16c45758eb001332d5db777",
+        "b20984722adcf3e95e7c5b5fb3fde3a8b682542695df4adbe285d18ab26e18f6",
+        "b20984722adcf3e95e7c5b5fb3fde3a82dfa8278d7a39d28d69bd4a205115c82",
+        "b20984722adcf3e95e7c5b5fb3fde3a84338aa4d6a640151cbe443476cb6b349",
+        "b20984722adcf3e95e7c5b5fb3fde3a812de83c3252c0d9ba0de53ac8c1712ab",
+        "b20984722adcf3e95e7c5b5fb3fde3a819b519f3d51f65851a28c764470a04cb",
+        "b20984722adcf3e95e7c5b5fb3fde3a8d397a11a849cd6a1e205cfcb26b4e3bf",
+        "b20984722adcf3e95e7c5b5fb3fde3a8b588aef219d7f13ad079d177a24fff14",
+        "b20984722adcf3e95e7c5b5fb3fde3a84fa01f17c00c2a674a9f5f86c3fccca7",
+        "b20984722adcf3e95e7c5b5fb3fde3a88cf1d645caf94ae782726469fd2cdb07",
+        "b20984722adcf3e95e7c5b5fb3fde3a88bfca473dc6ae88a12a9c872885b3f20",
+        "b20984722adcf3e95e7c5b5fb3fde3a82c2d89da01302142abfe44fbc6b4e131"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\CustomerRepository": [
+        "1d1013b1b8dd42a73b524140e023412facac9871c0bf63879d796c72290f189f"
+    ],
+    "Botble\\Contact\\Repositories\\Eloquent\\ContactRepository": [
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7c7450a1164cfbaa2c85cedd758f4e241",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e74f057cdd6ae9572d87ac37645f693691",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7e0cebb6aecab4792b27ced3cb5cdb25f",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7bda048f8e8442706c61eb8bf78c8a338",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7bba3ea50b765f00fe5fff3f71b2e110d",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7bf02e9014a801563f434b51243868b3d",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e700d6a1360e3a485817fabc3e2adcb292",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e75272d244984fa4476b3ca31348a4e1df",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7deace537eabd62683982de6e425a644b",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e749fa8b7a752cc14de56aacd0552bea38",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e743deb9a4c0b7d0025d164c23ef193e37",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e76de3afd2fe95d3887f82dcc051b9e97f",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7a0db8ddd674e69024546c8e96dbd86f6",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e727694e6d90660cfb2e81493612506e02",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e78207760d776c388879c22d7f4d1c9aec",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e709d0b7fdb4fb4c2c927743ca151db789",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e753ba18042277d79a558050b38dd41263",
+        "ca3a3b7a32ecefd1b0a6c4030dcdc0e7249d91e635b2f167269ba54983c2352d"
+    ],
+    "Botble\\Ecommerce\\Repositories": [
+        "c0a6f530403d957c3a9fc90514422e6f50d5bb04a8a2e749eeb446bb6203e8e8",
+        "c0a6f530403d957c3a9fc90514422e6f3bbc3cd455574ea861d568cd4a89bb47",
+        "c0a6f530403d957c3a9fc90514422e6f5ef6d59bc59d305aac357fa90d33375b",
+        "c0a6f530403d957c3a9fc90514422e6f053fab856688ad2b3baba6a5b2c092f2",
+        "c0a6f530403d957c3a9fc90514422e6f478d0b119bb3094a8c4d5e7238b4b304",
+        "c0a6f530403d957c3a9fc90514422e6f084d63ea43070bbe85d60c5ae7d79bdf",
+        "c0a6f530403d957c3a9fc90514422e6fee567c27b5a380c1463dd32f0593dddf"
+    ],
+    "Botble\\Ecommerce\\Repositories\\Eloquent\\ProductTagRepository": [
+        "dc0eac53bc4935be205d371c98a34195c9fc9a5cda7367f7770f80dfe96de4cd"
+    ],
+    "Botble\\Media\\Repositories": [
+        "f3923148c0758c84d867a767e3cfbbec092de3f8e80fe0c3138da6959aa1682d",
+        "f3923148c0758c84d867a767e3cfbbecfd158224461faebae9a4b5a124e595fc",
+        "f3923148c0758c84d867a767e3cfbbec7e3c10b12ccebf10ae6d814702cff258",
+        "f3923148c0758c84d867a767e3cfbbec0a41a3b84e89bd2035d2a586e51b4d2b"
+    ],
+    "Botble\\Base\\Repositories\\Eloquent\\MetaBoxRepository": [
+        "220f912fe050e57234dbf3725458709b47cf497f728de3e83ac81291f0d8b8e1"
+    ]
+}
