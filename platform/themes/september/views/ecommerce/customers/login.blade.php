@@ -38,7 +38,7 @@
                      </div>
                  </div>
                  <div class="form__actions">
-                     <p>{{ __('Don\'t have an account?') }} <a href="{{ route('customer.register') }}" class="d-inline-block">{{ __('Create one') }}</a></p>
+                     <p>{{ __('Não tem uma conta?') }} <a href="{{ route('customer.register') }}" class="d-inline-block">{{ __('Create one') }}</a></p>
                      <button type="submit" class="btn--custom btn--rounded btn--outline">{{ __('Login') }}</button>
                  </div>
 
