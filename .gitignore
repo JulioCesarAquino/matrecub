@@ -1,12 +1,12 @@
-# /node_modules
+/node_modules
 # /public/hot
-# /public/storage
+/public/storage
 # /storage/*.key
-# /vendor
+/vendor
 .DS_Store
 Thumbs.db
 /bower_components
-.env
+# .env
 .env.backup
 /.idea
 /.vscode
@@ -17,8 +17,8 @@ npm-debug.log
 sftp-config.json
 .phpstorm.meta.php
 _ide_helper_models.php
-# /storage/app/backup
-# /storage/cache_keys.json
+/storage/app/backup
+/storage/cache_keys.json
 
 __MACOSX
 /.phpintel
@@ -33,12 +33,12 @@ yarn.lock
 
 public/mix-manifest.json
 
-# public/themes
-# public/docs
-# resources/docs
+public/themes
+public/docs
+resources/docs
 
 # .phpunit.result.cache
-# /storage/.license
+/storage/.license
 
 /log
 
