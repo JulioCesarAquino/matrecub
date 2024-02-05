@@ -14,7 +14,7 @@ return [
     'customer'                                       => [
         'messages' => [
             'cancel_error'   => 'The order is delivering or completed',
-            'cancel_success' => 'You do cancel the order successful',
+            'cancel_success' => 'Pedido Cancelado com sucesso!!',
         ],
     ],
     'incomplete_order'                               => 'Incomplete orders',
