@@ -1,5 +1,4 @@
 <?php
-dd("O júlio é um vencedor");
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
