@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1" name="viewport"/>
-
+        <meta name="google-site-verification" content="nJVAAxvTtBLk5TvwX8iQlK6M24N529szemN6GJiarKs" />
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <link href="https://fonts.googleapis.com/css?family={{ urlencode(theme_option('primary_font', 'Poppins')) }}:400,500,600,700,900&display=swap" rel="stylesheet">
