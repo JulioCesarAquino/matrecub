@@ -51,7 +51,7 @@
                                     <th>{{ __('Image') }}</th>
                                     <th>{{ __('Name') }}</th>
                                     <th>{{ __('Price') }}</th>
-                                    <th>{{ __('Quantity') }}</th>
+                                    <th>qtd</th>
                                     <th></th>
                                 </tr>
                                 </thead>
