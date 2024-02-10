@@ -102,7 +102,7 @@
                                                     <td>
                                                         <div class="form-group--number product__qty">
                                                             <button type="button" class="up"></button>
-                                                            <input class="form-control qty-input" type="number" value="{{ $cartItem->qty }}" name="items[{{ $key }}][values][qty]">
+                                                            <input class="form-control qty-input" min="2" type="number" value="{{ $cartItem->qty }}" name="items[{{ $key }}][values][qty]">
                                                             <button type="button" class="down"></button>
                                                         </div>
                                                     </td>
