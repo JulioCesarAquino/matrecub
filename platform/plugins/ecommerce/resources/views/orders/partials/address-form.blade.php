@@ -106,11 +106,48 @@
             @else
                 <input type="hidden" name="country" value="{{ Arr::first(array_keys(EcommerceHelper::getAvailableCountries())) }}">
             @endif
-
+            @php
+                $estados = [
+                    (object) ['sigla' => 'AC', 'nome' => 'Acre'],
+                    (object) ['sigla' => 'AL', 'nome' => 'Alagoas'],
+                    (object) ['sigla' => 'AP', 'nome' => 'Amapá'],
+                    (object) ['sigla' => 'AM', 'nome' => 'Amazonas'],
+                    (object) ['sigla' => 'BA', 'nome' => 'Bahia'],
+                    (object) ['sigla' => 'CE', 'nome' => 'Ceará'],
+                    (object) ['sigla' => 'DF', 'nome' => 'Distrito Federal'],
+                    (object) ['sigla' => 'ES', 'nome' => 'Espírito Santo'],
+                    (object) ['sigla' => 'GO', 'nome' => 'Goiás'],
+                    (object) ['sigla' => 'MA', 'nome' => 'Maranhão'],
+                    (object) ['sigla' => 'MT', 'nome' => 'Mato Grosso'],
+                    (object) ['sigla' => 'MS', 'nome' => 'Mato Grosso do Sul'],
+                    (object) ['sigla' => 'MG', 'nome' => 'Minas Gerais'],
+                    (object) ['sigla' => 'PA', 'nome' => 'Pará'],
+                    (object) ['sigla' => 'PB', 'nome' => 'Paraíba'],
+                    (object) ['sigla' => 'PR', 'nome' => 'Paraná'],
+                    (object) ['sigla' => 'PE', 'nome' => 'Pernambuco'],
+                    (object) ['sigla' => 'PI', 'nome' => 'Piauí'],
+                    (object) ['sigla' => 'RJ', 'nome' => 'Rio de Janeiro'],
+                    (object) ['sigla' => 'RN', 'nome' => 'Rio Grande do Norte'],
+                    (object) ['sigla' => 'RS', 'nome' => 'Rio Grande do Sul'],
+                    (object) ['sigla' => 'RO', 'nome' => 'Rondônia'],
+                    (object) ['sigla' => 'RR', 'nome' => 'Roraima'],
+                    (object) ['sigla' => 'SC', 'nome' => 'Santa Catarina'],
+                    (object) ['sigla' => 'SP', 'nome' => 'São Paulo'],
+                    (object) ['sigla' => 'SE', 'nome' => 'Sergipe'],
+                    (object) ['sigla' => 'TO', 'nome' => 'Tocantins'],
+                ];
+            @endphp      
             <div class="col-sm-6 col-12">
                 <div class="form-group @if ($errors->has('address.state')) has-error @endif">
-                    <input id="address_state" type="text" class="form-control address-control-item checkout-input" placeholder="{{ __('State') }}" name="address[state]" value="{{ old('address.state', Arr::get($sessionCheckoutData, 'state')) }}">
-                    {!! Form::error('address.state', $errors) !!}
+                    {{-- <input id="address_state" type="text" class="form-control address-control-item checkout-input" placeholder="{{ __('State') }}" name="address[state]" value="{{ old('address.state', Arr::get($sessionCheckoutData, 'state')) }}">
+                    {!! Form::error('address.state', $errors) !!} --}}
+                    <select id="address_state" class="form-control address-control-item checkout-input" name="address[state]">
+                        <option value="" disabled selected>{{ __('Selecionar') }}</option>
+                        @foreach($estados as $estado)
+                            <option value="{{ $estado->sigla }}" @if(old('address.state', Arr::get($sessionCheckoutData, 'state')) == $estado->sigla) selected @endif>{{ $estado->nome }}</option>
+                        @endforeach
+                    </select>
+                    {!! Form::error('address.state', $errors) !!}                    
                 </div>
             </div>
 
