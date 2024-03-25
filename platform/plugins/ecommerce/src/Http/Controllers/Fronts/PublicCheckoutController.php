@@ -595,7 +595,7 @@ class PublicCheckoutController
 
             $this->orderHistoryRepository->createOrUpdate([
                 'action'      => 'create_order_from_payment_page',
-                'description' => __('Order is created from checkout page'),
+                'description' => __('Pedido Criado na página de checkout'),
                 'order_id'    => $order->id,
             ]);
 

@@ -56,9 +56,11 @@ return [
             'out_stock' => 'Sem estoque',
             'title' => 'Status de estoque',
         ],
-        'storehouse' => [
-            'quantity' => 'Quantidade',
-            'title' => 'Estoque',
+        'storehouse'                         => [
+            'no_storehouse' => 'Sem Controle de Estoque',
+            'storehouse'    => 'Controle de Estoque',
+            'title'         => 'Estoque',
+            'quantity'      => 'Quantidade',
         ],
         'tax' => 'Taxa',
         'value' => 'Valor',

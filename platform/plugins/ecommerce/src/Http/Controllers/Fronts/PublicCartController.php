@@ -67,7 +67,7 @@ class PublicCartController extends Controller
         if (!$product->canAddToCart($request->input('qty', 1))) {
             return $response
                 ->setError()
-                ->setMessage(__('Maximum quantity is ' . $maxQuantity . '!'));
+                ->setMessage(__('A quantidade em estoque é ' . $maxQuantity . '!'));
         }
 
         $product->quantity -= $request->input('qty', 1);
