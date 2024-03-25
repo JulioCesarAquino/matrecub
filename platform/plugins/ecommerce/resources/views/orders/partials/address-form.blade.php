@@ -87,7 +87,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             @if (count(EcommerceHelper::getAvailableCountries()) > 1)
                 <div class="col-12">
@@ -104,7 +103,7 @@
                     </div>
                 </div>
             @else
-                <input type="hidden" name="country" value="{{ Arr::first(array_keys(EcommerceHelper::getAvailableCountries())) }}">
+                <input type="hidden" name="country" value="{{(string) Arr::first(array_keys(EcommerceHelper::getAvailableCountries())) }}">
             @endif
             @php
                 $estados = [
@@ -136,7 +135,7 @@
                     (object) ['sigla' => 'SE', 'nome' => 'Sergipe'],
                     (object) ['sigla' => 'TO', 'nome' => 'Tocantins'],
                 ];
-            @endphp      
+            @endphp
             <div class="col-sm-6 col-12">
                 <div class="form-group @if ($errors->has('address.state')) has-error @endif">
                     {{-- <input id="address_state" type="text" class="form-control address-control-item checkout-input" placeholder="{{ __('State') }}" name="address[state]" value="{{ old('address.state', Arr::get($sessionCheckoutData, 'state')) }}">
@@ -147,7 +146,7 @@
                             <option value="{{ $estado->sigla }}" @if(old('address.state', Arr::get($sessionCheckoutData, 'state')) == $estado->sigla) selected @endif>{{ $estado->nome }}</option>
                         @endforeach
                     </select>
-                    {!! Form::error('address.state', $errors) !!}                    
+                    {!! Form::error('address.state', $errors) !!}
                 </div>
             </div>
 
